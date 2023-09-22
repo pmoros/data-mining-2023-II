@@ -11,7 +11,8 @@ def get_all_ids(json_file):
 
     return ids
 
-def load_data(json_file, ids_to_load):
+# ! This method is failing
+def load_data(json_file, ids_to_load):    
     data = []
 
     with open(json_file, 'r') as file:
